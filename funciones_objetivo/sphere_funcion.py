@@ -10,6 +10,7 @@ y = np.linspace(-2,2,100)
 X,Y = np.meshgrid(x,y)
 z = np.array([X,Y])
 
+
 Z = sphere_function(z)
 print(Z)
 
